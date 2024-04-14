@@ -1,0 +1,86 @@
+body{
+    font-style: italic;
+    font-size: 18px;
+    
+}
+h1{
+    font-style: italic;
+    font-size: 66px;
+    color: ;
+}
+.navbar{
+    height: 190;
+}
+.abcd a{color:white;}
+h2{
+    font-style: italic;
+    font-size: 40px;
+}
+h3{
+    font-style: italic;
+    font-size: 40px;
+}
+h4{
+    font-style: italic;
+    font-size: 45px;
+}
+nav{
+    background-color: black;
+}
+h5{
+    
+    font-size: 42px;
+    color: whitesmoke;
+    background-color: black;
+}
+.article1{
+    margin-top: 92px;
+    margin-left: 25px;
+    margin-bottom: 122px;
+}
+.article2{
+    margin-top: 132px;
+    padding-top: 20px;
+    
+}
+.article3{
+    margin-top: 192px;
+    margin-left: 25px;
+    margin-bottom: 12px;
+}
+.img{
+    margin: 12px;
+    border-radius: 4px;
+}
+nav{background-color: rgb(255, 255, 255);}
+.navbar{overflow:auto;}
+.navbar li{padding:6px 6px;float: left;
+text-decoration: none;
+font-size: large;}
+.navbar li{float:left;
+margin: 13px 70px; 
+list-style:none;}
+.animation{
+    width: 1500px;
+    height: 600px;
+    background-image:url("1st.jpg");
+    background-size: 1600px 700px;
+    animation: changeimage 15s linear infinite;
+}
+@keyframes changeimage{
+    0%{
+        background-image: url("1st.jpg");
+    }
+    35%{
+        background-image: url("2.jpg");
+    }
+    50%{
+        background-image: url("dinner.jpg");
+    }
+    75%{
+        background-image: url("room.jpg");
+    }
+    100%{
+        background-image: url("cooridoor.jpg");
+    }         
+}
